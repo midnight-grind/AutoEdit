@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Retro Ads Style</title>
+    <style>
+        body {
+            background-color: #f8e4c1; /* Beige retro background */
+            font-family: 'Georgia', serif; /* Retro feel */
+            color: #3c2c1f; /* Dark Brown text for vintage effect */
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #edc382; /* Warm tan */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #2c1e0f;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        .ads {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .ad {
+            background-color: #f8e4c1;
+            border: 5px solid #3c2c1f; /* Bold border for vintage style */
+            padding: 20px;
+            position: relative;
+        }
+
+        .ad h2 {
+            margin: 0;
+            color: #d9472d;
+            font-size: 2em;
+        }
+
+        .ad p {
+            color: #3c2c1f;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .ad .price {
+            color: #d9472d;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .ad .highlight {
+            color: #edc382;
+            background-color: #3c2c1f;
+            display: inline-block;
+            padding: 5px 10px;
+            font-size: 1.2em;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            transform: rotate(-15deg);
+        }
+
+        footer {
+            background-color: #3c2c1f;
+            color: #f8e4c1;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <h1>Retro Ads Collection</h1>
+</header>
+
+<div class="ads">
+    <div class="ad">
+        <h2>Special Offer</h2>
+        <p>For a limited time only!</p>
+        <p class="price">$20 Only</p>
+        <p>This deal won't last long!</p>
+    </div>
+
+    <div class="ad">
+        <h2>Hair Studio</h2>
+        <p>Call Now!</p>
+        <p class="price">Trendiest Styles</p>
+        <div class="highlight">Trendy</div>
+    </div>
+
+    <div class="ad">
+        <h2>Car Sales</h2>
+        <p>New & Used</p>
+        <p>Unbeatable Prices</p>
+        <p class="price">Low as $1000</p>
+    </div>
+
+    <div class="ad">
+        <h2>Fresh Fish</h2>
+        <p>Crabs, Oysters, Lobsters!</p>
+        <p class="price">30% Off</p>
+    </div>
+
+    <div class="ad">
+        <h2>Bistro</h2>
+        <p>Warm Meals & Cold Drinks!</p>
+        <p class="price">24/7 Service</p>
+    </div>
+
+    <div class="ad">
+        <h2>Plumbing</h2>
+        <p>Call Now: 555-5555</p>
+        <p class="price">Affordable Rates</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Retro Ads Collection. All Rights Reserved.
+</footer>
+
+</body>
+</html>
